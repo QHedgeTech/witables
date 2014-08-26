@@ -1,7 +1,9 @@
-witables
+# WiTables
 ========
 
-WiTables is a web-based visualization tool for PyTables
+## The missing view on your PyTables.
+
+WiTables is a web-based visualization tool for PyTables. Deploy on it your server and access immediately to your data.
 
 --------
 To Do Now:
