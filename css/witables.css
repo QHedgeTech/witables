@@ -1,0 +1,105 @@
+.page-header {
+	margin-bottom:50px;
+}
+
+.spinner {
+	margin: 1px auto;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	font-size: 5px;
+}
+
+.spinner > div {
+	background-color: #333;
+	height: 100%;
+	width: 6px;
+	display: inline-block;
+
+	-webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+	animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+	-webkit-animation-delay: -1.1s;
+	animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+	0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+	20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+	0%, 40%, 100% { 
+	transform: scaleY(0.4);
+	-webkit-transform: scaleY(0.4);
+} 20% {
+	transform: scaleY(1.0);
+	-webkit-transform: scaleY(1.0);
+	}
+}
+
+.navbar{
+	height: 50px;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+.breadcrumb {
+	background-color:#222;
+	margin-top:7px;
+
+}
+.breadcrumb a:link { color: #ffffff; text-decoration: none}
+.breadcrumb a:visited { color: #ffffff; text-decoration: none}
+.breadcrumb a:hover { color: #ffffff; text-decoration: underline}
+
+.tooltip-customized  {
+}
+
+.value a:link { color: #000000; text-decoration: none}
+.value a:visited { text-decoration: none}
+.value a:hover { color: #000000; text-decoration: underline}
+
+.list-group-item a:visited { color: #123456;}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+	/* Navbar positioning foo */
+	.navbar-wrapper {
+		margin-top: 20px;
+	}
+	.navbar-wrapper .container {
+		padding-right: 15px;
+		padding-left:  15px;
+	}
+	.navbar-wrapper .navbar {
+	padding-right: 0;
+	padding-left:  0;
+	}
+
+	/* The navbar becomes detached from the top, so we round the corners */
+	.navbar-wrapper .navbar {
+		border-radius: 4px;
+	}
+}
