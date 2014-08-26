@@ -1,7 +1,7 @@
 witables
 ========
 
-WiTables is a visualization tool for PyTables
+WiTables is a web-based visualization tool for PyTables
 
 --------
 To Do Now:
