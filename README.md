@@ -4,7 +4,6 @@
 
 > WiTables is a web-based visualization tool for PyTables written in python. Deploy on it your server and access immediately to your data.
 > As a web application, databases can be shared with people and accessed from everywhere.
-___
 
 ### Version Name: Stig
 
@@ -27,8 +26,6 @@ By default, WiTables comes with .htaccess file that restrains access to localhos
 **You are responsible!** The current version is in read-only mode, but we are not responsible for the lost for your data.
 > backup your data regularly!
 - Albert Einstein
-
-___
 
 
 ### Getting Started
@@ -79,6 +76,6 @@ You're done.
 
 ___
 
-### Next Version: Wiche Lorraine
+#### Next Version: Wiche Lorraine
 
 ### Have fun with your data, you sexy geek.
