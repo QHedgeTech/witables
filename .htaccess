@@ -1,4 +1,4 @@
 Order Deny,Allow
 Deny from all
-Allow from 127.0.0.1 192.168.0. 10.8.0.
+Allow from 127.0.0 192.168.0. 10.8.0.
 DirectoryIndex index.py
